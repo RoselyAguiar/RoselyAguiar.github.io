@@ -1,0 +1,439 @@
+.body {
+    /*background-color: #f5bc2b*/
+    background-image: url('../imagens/pp/floral-wp.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat-x repeat-y;
+}
+
+.section {
+    margin-top: -47px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+m {
+    color: white;
+    font-weight: 400;
+}
+
+header {
+    background-color: black;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 2000px;
+    /* border: 1px solid #c3c3c3; */
+    border-radius: 10px 30px 30px 30px;
+}
+
+title {
+    display: none;
+}
+
+.navbar-toggler-icon {
+    /* min-width: 370px; */
+    height: auto;
+    color: blue;
+    border-color: red;
+    border-radius: 10px 30px 30px 30px;
+}
+
+.navbar-brand {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+}
+
+#head {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h12 {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 122px;
+}
+
+.blimp {
+    animation: blimp 1s linear infinite;
+}
+
+@keyframes blimp {
+    50% {
+        opacity: 0;
+    }
+}
+
+.navbar-brand1,
+.navbar-brand2 {
+    border-radius: 10px 30px 30px 30px;
+}
+
+.i-dock {
+    margin-top: 5px;
+}
+
+.case {
+    /* border: 5px solid darkslateblue; */
+    border-radius: 20px;
+    /* background-color: lightseagreen; */
+    /* padding-left: 5px; */
+    margin-top: 5.5px;
+    margin: 0 auto;
+    width: 256px;
+    text-align: center;
+    width: 136px;
+}
+
+.fa {
+    padding-top: 6px;
+    padding-left: 12.5px;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: orangered;
+    color: white;
+    padding-top: 3.5px;
+    padding-left: 0.5px;
+    font-size: 10px;
+    height: 45px;
+    width: 45px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.case2 {
+    /* border: 5px solid darkslateblue; */
+    border-radius: 20px;
+    /* background-color: darkblue; */
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    margin: 0 auto;
+    width: 136px;
+}
+
+.case3 {
+    display: flex;
+    justify-content: center;
+}
+
+#callme {
+    padding: auto;
+    font-weight: 500;
+    border-color: gold;
+}
+
+.perg {
+    padding-left: 7px;
+    padding-top: 8px;
+}
+
+#prom {
+    margin-top: 8px;
+}
+
+p9 {
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.bulletlist ul {
+    text-align: justify;
+}
+
+#Curso1,
+#Curso2 {
+    background-color: lightskyblue;
+    padding-bottom: 20px;
+}
+
+#Curso3 {
+    background-color: lightslategrey;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+}
+
+#Curso4 {
+    background-color: lightslategrey;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+}
+
+.spacer1 {
+    margin-top: 10px;
+}
+
+a {
+    font-size: large;
+    font-weight: 900;
+}
+
+#poster {
+    /* background-image: url("../imgs/mat/poster.jpg"); */
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#JBLI-side {
+    background-image: url("../imgs/mat/JBLI-side2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#box {
+    border: 2px solid black;
+    background-color: peru;
+    margin-bottom: 18px;
+    display: ;
+    justify-content: center;
+
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    background-color: #ff02bc;
+    border-radius: 2px;
+    
+    margin-top: 23px;
+}
+
+.carIndic {
+  
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+#car {
+    border-radius: 90px 10px 50px 10px;
+    border: #ff02bc solid 5px;
+}
+
+.makeroll img {
+    width: 170px;
+    height: 310px;
+    justify-content: space-between;
+}
+
+#cardx {
+    border: #ff02bc solid 5px;
+    border-radius: 30px 5px 10px 5px;
+    margin-inline: 25px;
+    margin-bottom: 10px;
+}
+
+#wa {
+    width: 155px;
+    margin-top: 6px;
+}
+
+.top {
+    margin-top: 17px;
+    margin-left: 185px;
+    color: red;
+}
+
+p11 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Verdana;
+    color: red;
+    margin-top: 18px;
+}
+
+p12 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Verdana;
+    font-style: italic;
+    color: black;
+    margin-top: 18px;
+}
+
+#vcpode {
+    background-image: url("../imagens/pp/flores-blur.jpg");
+    
+    background-color: lightblue;
+    background-position: center;
+}
+
+#jbli {
+    color: blue;
+}
+
+.background2 {
+    background-color: lightslategrey;
+    
+}
+
+#rmg {
+    background-color: azure;
+}
+
+
+
+.col-lg-3 {
+    justify-content: flex-start;
+}
+
+#dress {
+    /*padding-bottom: 20px;*/
+    border: #ff02bc solid 5px;
+    border-radius: 30px 5px 10px 5px;
+}
+
+#vcpode,
+#acess,
+#rmg,
+#splus,
+#splus-2 {
+    border: 2px solid #ff02bc;
+    border-radius: 10px;
+    width: 98%;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+#acess {
+    background-image: url("../imagens/pp/flores-blur.jpg");
+}
+
+#splus {
+    background-color: azure;
+}
+
+#splus-2 {
+    background-color: azure;
+}
+
+#mod1,
+#mod2,
+#mod3 {
+    padding-bottom: 20px;
+}
+
+#mod11,
+#mod22,
+#mod33 {
+    border: 2px solid #ff02bc;
+    border-radius: 10px;
+}
+
+#courses {
+    background-color: lightskyblue;
+}
+
+p {
+    text-align: justify;
+}
+
+p1 {
+    color: black;
+    font-weight: 500;
+}
+
+p2 {
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+p5 {
+    font-size: larger;
+    font-weight: bolder;
+    font-style: justify;
+}
+
+p6,
+p7 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p4 {
+    font-weight: bold;
+    text-align: justify;
+}
+
+p8 {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p10 {
+    color: red;
+    font-weight: 700;
+}
+
+.btn-default {
+    padding-top: 7px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    text-align: center center;
+    margin-left: 13px;
+    border-radius: 7px;
+}
+
+.btn-warning {
+    background-color: red;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    text-align: center center;
+    margin-right: 25px;
+}
+
+.btn-danger {
+    background-color: orange;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    color: blanchedalmond;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
